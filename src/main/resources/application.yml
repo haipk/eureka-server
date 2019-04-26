@@ -5,5 +5,7 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
+  server:    
+    enableSelfPreservation: false
+    eviction-interval-timer-in-ms: 500
+    response-cache-update-interval-ms: 500
