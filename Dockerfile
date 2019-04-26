@@ -3,7 +3,7 @@
 # Version 0.0.1
 
 #jdk image
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM frolvlad/alpine-oraclejre8:slim
 
 # install
 
